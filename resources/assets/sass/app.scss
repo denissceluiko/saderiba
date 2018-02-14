@@ -1,0 +1,57 @@
+
+// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body {
+  background-image: url("../images/background.png");
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+.panel {
+  color: #660033;
+  background-color: rgba(255, 255, 255, 0.90);
+
+  .panel-body {
+    padding:20px;
+  }
+}
+
+.btn.btn-measure {
+  background-color:#660033;
+
+  &:hover {
+    background-color:#fbbde4;
+  }
+}
+
+.progress.active {
+  margin-top: 1rem;
+
+  .progress-bar.bg-pink {
+    -webkit-transition: none !important;
+    transition: none !important;
+
+    color: #660033;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #fbbde4;
+
+    &:focus, &:hover {
+      background-color: #fbbde4;
+    }
+  }
+}
+
+.img-host {
+  max-width: 150px;
+}
